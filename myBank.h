@@ -4,17 +4,17 @@
 
 extern double bankAccounts[MAX_ACCOUNTS][2];
 
-void openAccount (double amount);
+void openAccount ();
 
-void balance (int account);
+void balance ();
 
-void deposit (int account, double amount);
+void deposit ();
 
-void withdraw (int account, double amount);
+void withdraw ();
 
-void closeAccount (int account);
+void closeAccount ();
 
-void addInterest (double interest_rate);
+void addInterest ();
 
 void print ();
 
